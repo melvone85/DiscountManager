@@ -43,7 +43,7 @@ Refactoring of Legacy DiscountManagerCalculate class
 - **IValuableCustomerDiscountCalculator.cs**
 		`Implementation of ValuableCustomer inherit and implement abstract class BaseCustomerDiscountCalculator and give back the amount discounted.`
 
-	####Interfaces
+- ### Interfaces
 	
 - **ICustomerDiscountCalculator.cs**
 		`Original interface from the legacy code implemented by the Logic DiscountManager class`
@@ -53,5 +53,5 @@ Refactoring of Legacy DiscountManagerCalculate class
 -  **ICustomerDiscountCalculatorV2.cs**
 		`Interface implemented by the Abstract class BaseCustomerDiscountCalculator.`
 
-	####NUnit test
+- ### NUnit test
 - 	Project test are done using NUnit and they check for the correctness of the values returned by Concrete Customers and also check for Concrete Object returned by the factory. 
