@@ -68,4 +68,5 @@ Refactoring of Legacy DiscountManagerCalculate class
 
 
 - ### NUnit test
+
 		Project test are done using NUnit and they check for the correctness of the values returned by Concrete Customers and also check for Concrete Object returned by the factory. 
