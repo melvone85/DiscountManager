@@ -14,7 +14,7 @@ namespace DiscountManagerApp
             {
                 #region Check Args
                 if (args.Length != 3)
-                    throw new ArgumentException("Must pass just 3 Arguments (amount:decimal customertype:int yearsOfSubscription:int)");
+                    throw new ArgumentException("Must pass just 3 Arguments Amount:decimal CustomerType:int YearsOfSubscription:int)");
 
                 if (decimal.TryParse(args[0], out decimal amount))
                 {
@@ -31,10 +31,10 @@ namespace DiscountManagerApp
                 if (int.TryParse(args[2], out int yearsOfSubscription))
                 {
                     if (yearsOfSubscription < 0)
-                        throw new ArgumentException("LoyaltyYears parameter can't negative number!");
+                        throw new ArgumentException("YearsOfSubscription parameter can't negative number!");
                 }
                 else
-                    throw new NotFiniteNumberException("LoyaltyYears parameter is not a number");
+                    throw new NotFiniteNumberException("YearsOfSubscription parameter is not a number");
                 #endregion
 
                 Dictionary<ECustomerType,ICustomerDiscountCalculatorV2> dictCustomerDiscountCalculator = new Dictionary<ECustomerType, ICustomerDiscountCalculatorV2>();
