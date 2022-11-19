@@ -1,6 +1,6 @@
 # DiscountManagerApp
 
-##Target
+## Target
 
 Refactoring of Legacy DiscountManagerCalculate class
 
