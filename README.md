@@ -11,11 +11,11 @@ Refactoring of Legacy DiscountManagerCalculate class
 - **Program.cs**
 
  Console Application it take care of:  * 
-              `Create the logic of the application`
-              `Create the Factory class and inject it into logic.`
-              `Create the Dictionary with the possible customers and inject it into factory`
-              `Calculate the Total Amount with the Discount applied with the parameters given in input`
-              `Print the Calculated result in the console`
+		* `Create the logic of the application`
+		* `Create the Factory class and inject it into logic.`
+		* `Create the Dictionary with the possible customers and inject it into factory`
+		* `Calculate the Total Amount with the Discount applied with the parameters given in input`
+		* `Print the Calculated result in the console`
 
 - ### Logic
 
