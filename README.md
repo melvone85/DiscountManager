@@ -72,8 +72,4 @@ Refactoring of Legacy DiscountManagerCalculate class
 - **Classes for unit tests**
 		Project test are done using NUnit and they check for the correctness of the values returned by Concrete Customers and also check for Concrete Object returned by the factory.
 		
-- ### Interfaces
-	
-- **ICustomerDiscountCalculator.cs**
-		Original interface from the legacy code implemented by the Logic DiscountManager class
 ------------
