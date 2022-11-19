@@ -35,6 +35,7 @@ Refactoring of Legacy DiscountManagerCalculate class
 - ### Entities
 
 - **IBaseCustomerDiscountCalculator.cs**
+
 		Abstract class that implement ICustomerDiscountCalculatorV2 inherited from Concrete customers and is main job is to implement some common calculations such as CalculateLoyaltyDiscount and CalculateCustomAmountDiscount, and make abstract the method CalculateDiscountAmount to allow concrete customers to override it.
 - **ICustomerDiscountCalculatorFactory.cs**
 		Implement ICustomerDiscountCalculatorFactory and is main job is to give back a concrete customer type depending on the enum parameter given in input. Also throw exception if customer is not implemented.
